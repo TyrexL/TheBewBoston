@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thenewboston"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:screenOrientation="portrait"
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.thenewboston.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewboston.TheStartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.THESTARTINGPOINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewboston.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.example.thenewboston.TextPlay"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.TEXTPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.Email"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.EMAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.Camera"
+            android:label="Camera Application"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.CAMERA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.Data"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.DATA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        <activity
+            android:name="com.example.thenewboston.OpenedClass"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.OPENEDCLASS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name="com.example.thenewboston.AboutUs"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.Prefs"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.GFX"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.GFX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.GFXSurface"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.GFXSURFACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.thenewboston.MyBringBackSurface"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.MYBRINGBACKSURFACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="com.example.thenewboston.SoundStuff"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.SOUNDSTUFF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.example.thenewboston.Slider"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.thenewboston.SLIDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
